@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Walk through your first HTML page | blog.codingninjas.in</title>
+  </head>
+  <body>
+    <header id="main-header">
+      <link rel="stylesheet" href="style.css" />
+      <a href="http://blog.codingninjas.in/" id="logo"
+        ><img
+          src="https://ninjasfiles.s3.amazonaws.com/0000000000001394.png"
+          alt="coding ninjas logo"
+      /></a>
+
+      <div>
+        <p id="site-title">
+          <a href="http://blog.codingninjas.in/">blog.codingninjas.in</a>
+        </p>
+        <p id="about-site">Coding Ninjas Official Blog</p>
+      </div>
+
+      <div id="header-image-container">
+        <img
+          src="https://ninjasfiles.s3.amazonaws.com/0000000000001395.png"
+          alt="coding ninjas love coding"
+        />
+      </div>
+    </header>
+
+    <div id="content">
+      <main>
+        <header id="blog-header">
+          <h1>A step-by-step walk through of your first HTML page</h1>
+        </header>
+
+        <section id="author-container">
+          <img
+            id="author-img"
+            src="https://www.pngall.com/wp-content/uploads/2/T-Letter-PNG-Picture.png"
+            alt="t-img"
+          />
+          <p id="author-name">Tahleel</p>
+          <p>Web Development</p>
+        </section>
+
+        <article id="blog-content">
+          <div id="views">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEX///8AAADk5OTAwMD19fVNTU0bGxuMjIwgICCenp7c3Nxzc3PFxcX5+fnq6urf399paWnw8PDMzMw3Nzc8PDzS0tLLy8uSkpKkpKRISEgwMDBfX1+vr699fX2GhobW1tYlJSVVVVUQEBC1tbUqKiq83+q5AAACa0lEQVR4nO3d2VLCQBBA0YQlRGNCWJSIG4r//41ilU/dzHQp6PTgva82sQ+lDzpAioKIiIiIiIj+Se0kUOrFztS831aBVk2XerszdFvGqi6AuI4Kyz71fqcXB5Z16v1ObmQIy9QLnhxChP5DiNB/CBH6DyFC/yFE6D+ECP2HEKH/ECL0H0KE/kOI0H8IEfoPIUL/IUToP4QI/YcQof8QIvQfQoT+Q4jQfwgR+g+hR+Hi8akJdHWrpjMUXkf3fZbj+Qlb4/2EN2I+P2H8LaFl2Yj5/IRjY+GpmEeI8O9DiBBh+hAiRJg+hAgRpg8hQoTpQ4gQYfoQIkSYPoQIEaYPIUKE6UOIEGH6ECJEmL4che3dcHW8YdlegvBlF/n2u5f8hQtjgUX2wr2xwDh74cZYYJO9cGYsMEOIECFChAgRIkSIECFChAgRIkSIECFChAgR/p5wfhPoTh4k5SlcbiOXa9SRZ35C44rqdvT5Ca3Tsnn2wlfjgvIzgPITTo0LyjNdhAgRIkSIECFChOcRtqPrQKPJRQjHkb/36uEChMv41x/zFxobV/kL34wB+a+X/ITWwAihCKEMoQyhCiFCFUIZQhlCFUKEKoQyhDKEKoQIVQhlCGUIVf9AWFsDot6YX4r5wZiXJyPGKYN+WZkxX1sbr+UFrY07MW/dZUzeDa8z5tVZkXGftr7oqm8tUBT30fm9mm+i8/I2atYHadyr+fhT+HZ4xrtmVQXa9vJ1eIfazXpXH+/9Qb6q7bNhWgeuX0/16d3hN/FhF1povdEfaFPM+21oftV8/UhNAh253I/m29ADEs0TERERERGR6gO6b1fL44h/pgAAAABJRU5ErkJggg=="
+              alt="views-img"
+            />
+            <span><b> Views: 1,137</b></span>
+          </div>
+          <div id="blog-image-container">
+            <img
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000010_1548494846_coding-ninjas-step-by-step.png"
+              alt="Step-by-step walk"
+            />
+          </div>
+
+          <p>
+            HTML is short for HyperText Markup Language.Basically, it&apos;s the
+            &quot;code&quot; behind every webpage &ndash; even this one. If
+            you&apos;re just beginning to learn HTML, let us tell you that
+            it&apos;s a fairly easy task. HTML, without styling, can&apos;t do
+            anything more than setting a layout, drawing a table, or creating
+            frames &ndash; but it is handy as it helps you structure the content
+            correctly, which is important when you sit down to add style to your
+            HTML.
+          </p>
+
+          <img
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000005_1548426333_coding-ninjas-code-screenshot.jpeg"
+            alt="Code screenshot from laptop"
+          />
+
+          <p>
+            However simple this might seem, it is a mighty useful tool when it
+            comes to full-fledged web development. Various tools easily
+            eliminate the HTML coding from your work process &ndash; but if you
+            want to be in full control of your web-page, you&apos;ll need to
+            have some command over HTML.
+          </p>
+
+          <p>
+            Through this article, we aim to give you the essential HTML building
+            blocks that&apos;ll help you get up and running. Reading this,
+            you&apos;ll be able to understand an HTML source code and even
+            modify it for your own good!
+          </p>
+
+          <section>
+            <h3>Step One - TAGS</h3>
+
+            <img
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000004_1548426302_coding-ninjas-angle-brackets.png"
+              alt="Angle Brackets photo"
+            />
+
+            <p>
+              Tags are what you&apos;ll see the most when you look at any HTML
+              source code. A tag can ideally be seen as a wrapper to any item on
+              your HTML document. Tags tell what magic is to be done on the
+              content enclosed by them.
+            </p>
+
+            <p>Let&apos;s look at two types of tags:</p>
+
+            <ol>
+              <li>
+                &lt;tag-example-1&gt;I need a closign tag&lt;tag-example-1&gt;
+              </li>
+              <li>&lt;tag-example-2/&gt;I don&apos;t need a cloding tag.</li>
+            </ol>
+
+            <p>
+              In the first example, the sentence is wrapped by two tags. The
+              first one is called the opening tag and the second one is called
+              the closing tag. Everything in between is affected by the
+              properties of the tag. Very commonly used examples of such tags
+              are &lt;html&gt;, &lt;head&gt;, &lt;body&gt;, &lt;strong&gt;, etc.
+            </p>
+
+            <p>
+              The second example tags about loner tags &ndash; as in, they
+              don&apos;t need a closing tag to function. Although it&apos;s not
+              required, these type of tags are often written as &lt;tag/&gt; to
+              make the debugging of code easier. Common examples of such tags
+              are &lt;hr/&gt; &ndash; used for horizontal line, &lt;br/&gt;
+              &ndash; to break the line, etc.
+            </p>
+          </section>
+
+          <section>
+            <h3>
+              Step Two &ndash; HTML, HEAD, and BODY: The three pillars of your
+              document
+            </h3>
+
+            <img
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000007_1548426400_coding-ninjas-html-head-body.jpg"
+              alt="Head Body photo"
+            />
+
+            <p>
+              These tags are essential for any HTML document. They parcel out
+              the significant parts of your HTML code.
+            </p>
+
+            <ul>
+              <li>
+                &lt;BODY&gt; &lt;/BODY&gt; is placed below your &lt;HEAD&gt;
+                tag, and everything that you want to be displayed on your screen
+                comes under this tag. Text, images, links, and pretty much
+                anything you can see in your browser live inside this tag.
+              </li>
+              <li>
+                &lt;HTML&gt; &lt;/HTML&gt; wraps your entire code. Everything
+                else in your HTML document needs to come inside these tags.
+              </li>
+              <li>
+                &lt;HEAD&gt; &lt;/HEAD&gt; includes things like title, styles,
+                and scripts. Head is usually present at the top (hah!), just
+                inside the &lt;/HTML&gt; tag.
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>
+              Step three &ndash; A few tags that&apos;ll make your page pretty
+            </h3>
+
+            <p>
+              Now that you know how to set up the skeleton of your document,
+              let&apos;s proceed with the things that will go inside your
+              &lt;BODY&gt; tag and do some magic!
+            </p>
+
+            <p>Some basic text formatting tags:</p>
+
+            <ul>
+              <li>&lt;b&gt; &lt;/b&gt; makes your text look <b>bold</b></li>
+              <li>&lt;i&gt; &lt;/i&gt; makes you write in <i>cursive</i></li>
+              <li>
+                &lt;u&gt; &lt;/u&gt; <u>underlines</u> what you just wrote
+              </li>
+            </ul>
+
+            <p>For example, this piece of code</p>
+
+            <hr />
+            <code>&lt;html&gt;</code>
+            <br /><br />
+            <code>&ensp; &lt;head&gt; &lt;/head&gt;</code>
+            <br /><br />
+            <code>&ensp; &lt;body&gt;</code>
+            <br /><br />
+            <code
+              >&ensp; &ensp; &lt;i&gt; I am italics! &lt;/i&gt;
+              &lt;br/&gt;</code
+            >
+            <br />
+            <code
+              >&ensp; &ensp; &lt;b&gt; I am bold! &lt;/b&gt; &lt;br/&gt;</code
+            >
+            <br />
+            <code
+              >&ensp; &ensp; &lt;u&gt; And me, well, I'm underlined! &lt;/u&gt;
+              &lt;br/&gt;</code
+            >
+            <br /><br />
+            <code>&ensp; &lt;/body&gt;</code>
+            <br /><br />
+            <code>&lt;/html&gt;</code>
+            <hr />
+
+            <br />
+            <br />
+
+            <p>
+              Should produce something like this on your browser: Don&apos;t
+              fret too much about the &lt;br/&gt;. It&apos;s just for breaking
+              the line so that you can start from the next line. Enter key does
+              little when it comes to changing lines in your HTML document.
+            </p>
+
+            <img
+              src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000009_1548426552_coding-ninjas-html-page-screenshot.png"
+              alt="Bold, Italic and Underline"
+            />
+
+            <p><b>Tags to help you structure your content:</b></p>
+
+            <ul>
+              <li>
+                &lt;br/&gt; breaks the line, making you continue to the next
+                line
+              </li>
+              <li>
+                &lt;p&gt; stands for paragraph. It divides your content into
+                paragraphs
+              </li>
+            </ul>
+
+            <p>
+              <i
+                >Note: You need to use these tags as space and enter keys do
+                very little when it comes to formatting content inside an HTML
+                document.</i
+              >
+            </p>
+
+            <section>
+              <h4>Heading Tags:</h4>
+
+              <p>
+                HTML provides you with six tags, from &lt;H1&gt; &lt;/H1&gt; to
+                &lt;H6&gt; &lt;/H6&gt; to help you create different sized
+                headers quickly.
+              </p>
+
+              <img
+                src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000006_1548426364_coding-ninjas-headings.png"
+                alt="All heading photos"
+              />
+            </section>
+
+            <section>
+              <h4>Inserting an Image:</h4>
+
+              <p>
+                All that&apos;s good, but what fun without images on the
+                webpage? Don&apos;t worry, &lt;IMG/&gt; to the rescue! The image
+                tag has a mandatory attribute called &quot;source&quot;.
+                Basically, it tells the browser where it should look for the
+                image. The syntax goes something like:
+              </p>
+
+              <p><i>&lt; img src = &quot;path_to_your_image&quot; /&gt;</i></p>
+
+              <p>
+                Furthermore, it also has attributes like height and width that
+                let you specify the height and width you want your image to
+                take.
+              </p>
+            </section>
+
+            <section>
+              <h4>Lists:</h4>
+
+              <p>
+                HTML has two types of lists &ndash; ordered and unordered. Each
+                item of your list has to be enclosed in a tag. The syntax for
+                creating a list is fairly simple.
+              </p>
+
+              <p>Suppose you want to create a list like:</p>
+
+              <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+              </ul>
+
+              <p>The following code will easily do the job for you:</p>
+
+              <hr />
+              <code>&lt;ul&gt;</code>
+              <br />
+              <code>&ensp; &lt;li&gt;</code>
+              <code>Item 1</code>
+              <code>&lt;/li&gt;</code>
+              <br />
+              <code>&ensp; &lt;li&gt;</code>
+              <code>Item 2</code>
+              <code>&lt;/li&gt;</code>
+              <br />
+              <code>&ensp; &lt;li&gt;</code>
+              <code>Item 3</code>
+              <code>&lt;/li&gt;</code>
+              <br />
+              <code>&lt;/ul&gt;</code>
+              <hr />
+
+              <br />
+              <br />
+
+              <p>
+                This, by the way, was an example of an unordered list. For an
+                ordered list, all you need to do is replace &lt;ul&gt; with
+                &lt;ol&gt; and &lt;/ul&gt; with &lt;/ol&gt;.
+              </p>
+
+              <p>Letâs see what the following code does:</p>
+
+              <hr />
+              <code>&lt;html&gt;</code>
+              <br /><br />
+              <code>&ensp; &lt;head&gt; &lt;/head&gt;</code>
+              <br /><br />
+              <code>&ensp; &lt;body&gt;</code>
+              <br /><br />
+              <code>&ensp; &ensp; &lt;ul&gt;</code>
+              <br />
+              <code
+                >&ensp; &ensp; &ensp; &lt;li&gt; I am unordered list's item 1!
+                &lt;/li&gt;</code
+              >
+              <br />
+              <code
+                >&ensp; &ensp; &ensp; &lt;li&gt; I am unordered list's item 2!
+                &lt;/li&gt;</code
+              >
+              <br />
+              <code
+                >&ensp; &ensp; &ensp; &lt;li&gt; I am unordered list's item 3!
+                &lt;/li&gt;</code
+              >
+              <br />
+              <code
+                >&ensp; &ensp; &ensp; &lt;li&gt; I am unordered list's item 4!
+                &lt;/li&gt;</code
+              >
+              <br />
+              <code>&ensp; &ensp; &lt;/ul&gt;</code>
+              <br />
+              <code>&ensp; &ensp; &lt;ol&gt;</code>
+              <br />
+              <code
+                >&ensp; &ensp; &ensp; &lt;li&gt; I am ordered list's item 1!
+                &lt;/li&gt;</code
+              >
+              <br />
+              <code
+                >&ensp; &ensp; &ensp; &lt;li&gt; I am ordered list's item 2!
+                &lt;/li&gt;</code
+              >
+              <br />
+              <code
+                >&ensp; &ensp; &ensp; &lt;li&gt; I am ordered list's item 3!
+                &lt;/li&gt;</code
+              >
+              <br />
+              <code
+                >&ensp; &ensp; &ensp; &lt;li&gt; I am ordered list's item 4!
+                &lt;/li&gt;</code
+              >
+              <br />
+              <code>&ensp; &ensp; &lt;/ol&gt;</code>
+              <br /><br />
+              <code>&ensp; &lt;/body&gt;</code>
+              <br /><br />
+              <code>&lt;/html&gt;</code>
+              <hr />
+
+              <br />
+              <br />
+
+              <img
+                src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000008_1548426521_coding-ninjas-html-page-list-screenshot.png"
+                alt="Ordered and Unordered List on HTML page"
+              />
+
+              <p>
+                All of these tags, when arranged coherently, will provide you
+                with a simple webpage consisting of images, headings, and lists.
+                Further, there are various tags that HTML supports, and we
+                thoroughly recommend you to check them out and play with them!
+              </p>
+            </section>
+
+            <section>
+              <h2>In Conclusion</h2>
+
+              <p>
+                You now know enough to skim through and understand any part of
+                an HTML code. We request you to go ahead and try skimming
+                through the source code of any website (you&apos;ll find some
+                tags you don&apos;t know, but that&apos;s how you learn!). Oh,
+                and welcome to the world of web development. With HTML under
+                your belt, your next stop should be making your page look
+                beautiful using CSS.
+              </p>
+
+              <p>
+                Let us know if you had any problems in the article, and donât
+                forget to have a look at a source code or two!
+              </p>
+            </section>
+          </section>
+        </article>
+      </main>
+      <aside>
+        <section id="subscription" class="widget">
+          <h4 class="widget-title">
+            Subscribe now to stay updated with new technology trends
+          </h4>
+
+          <div id="subscribe-form">
+            <form action="">
+              <label for="input-name">Name</label>
+              <input id="input-name" name="name" type="text" />
+              <label for="input-email">Email *</label>
+              <input id="input-email" name="input-email" type="text" required />
+              <button class="sub-btn" type="submit">SUBSCRIBE</button>
+            </form>
+          </div>
+        </section>
+
+        <section id="search" class="widget">
+          <form>
+            <input id="srch-input" type="search" placeholder="Search..." />
+            <button id="srch-btn" type="submit">
+              <img
+                src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000013_1549319004_search-icon.png"
+                id="srch-icon"
+              />
+            </button>
+          </form>
+        </section>
+
+        <section id="recent-posts" class="widget">
+          <h3>
+            Recent posts
+          </h3>
+          <ul>
+            <li>
+              Guiding path for a fresher to start their career in software
+              programming/development
+            </li>
+            <li>
+              The undisputed truth about emotional support animal rhode island
+              that the experts don't want you to hear
+            </li>
+            <li>The best plan to use for Emotional Support Animal Oregon</li>
+            <li>How to find Emotional Support Animal Illiios Online</li>
+            <li>Career opportunities aftermastering Python</li>
+          </ul>
+        </section>
+
+        <section id="recent-comments" class="widget">
+          <h3>
+            Recent Comments
+          </h3>
+          <ul>
+            <li>
+              A V Yogesg Rao
+              <span style="color: black; text-transform: lowercase;">on</span>
+              Get ready for the ultimate summer scholarship test
+            </li>
+            <li>
+              STRONY INTERNETOWE
+              <span style="color: black; text-transform: lowercase;">on</span>
+              Recursion(The good, the bad and the not so ugly
+            </li>
+            <li>
+              PHILIP HERB
+              <span style="color: black; text-transform: lowercase;">on</span>
+              Recursion(The good, the bad and the not so ugly
+            </li>
+            <li>
+              PASCHER VIGRA
+              <span style="color: black; text-transform: lowercase;">on</span>
+              Recursion(The good, the bad and the not so ugly
+            </li>
+            <li>
+              ANANYA BURMAN
+              <span style="color: black; text-transform: lowercase;">on</span>
+              code your way through Competitive programming!
+            </li>
+          </ul>
+        </section>
+
+        <section id="categories" class="widget">
+          <h3>
+            Categories
+          </h3>
+          <ul>
+            <li>Android</li>
+            <li>General</li>
+            <li>Interview Experiences</li>
+            <li>Machine Learning</li>
+            <li>Ruby</li>
+            <li>Uncategorized</li>
+            <li>Web Development</li>
+          </ul>
+        </section>
+      </aside>
+      <div id="social">
+        <a
+          id="facebook"
+          class="social-btn"
+          target="_blank"
+          href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fblog.codingninjas.in%2F2018%2F03%2F13%2Fa-step-by-step-walk-through-of-your-first-html-page%2F"
+          ><img
+            class="social-img"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000014_1549330414_facebook-logo.png"
+            alt="fb"
+        /></a>
+
+        <a
+          id="linkedin"
+          class="social-btn"
+          target="_blank"
+          href="https://www.linkedin.com/shareArticle?mini=true&title=Best+Coding+Practices+for+Hassle-free+Programming&url=http%3A%2F%2Fblog.codingninjas.in%2F2018%2F04%2F02%2Fbest-coding-practices-for-hassle-free-programming%2F"
+          ><img
+            class="social-img"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000015_1549330433_linkedin-logo.png"
+            alt="in"
+        /></a>
+
+        <a
+          id="twitter"
+          class="social-btn"
+          target="_blank"
+          href="https://twitter.com/share?url=http%3A%2F%2Fblog.codingninjas.in%2F2018%2F04%2F02%2Fbest-coding-practices-for-hassle-free-programming%2F&text=Best+Coding+Practices+for+Hassle-free+Programming"
+          ><img
+            class="social-img"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000016_1549330452_twitter-logo.png"
+            alt="twi"
+        /></a>
+
+        <a
+          id="gmail"
+          class="social-btn"
+          target="_blank"
+          href="https://plus.google.com/share?url=http%3A%2F%2Fblog.codingninjas.in%2F2018%2F04%2F02%2Fbest-coding-practices-for-hassle-free-programming%2F"
+          ><img
+            class="social-img"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000017_1549330467_google-logo.png"
+            alt="g+"
+        /></a>
+
+        <a
+          id="whatsapp"
+          class="social-btn"
+          target="_blank"
+          href="whatsapp://send?text=http%3A%2F%2Fblog.codingninjas.in%2F2018%2F04%2F02%2Fbest-coding-practices-for-hassle-free-programming%2F"
+          ><img
+            class="social-img"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000018_1549330485_whatsapp-logo.png"
+            alt="w-app"
+        /></a>
+
+        <a
+          id="mail"
+          class="social-btn"
+          target="_blank"
+          href="mailto:adresse@example.com?subject=7%20best%20coding%20practices%20to%20follow%20%7C%20blog.codingninjas.in&body=http%3A%2F%2Fblog.codingninjas.in%2F2018%2F04%2F02%2Fbest-coding-practices-for-hassle-free-programming%2F"
+          ><img
+            class="social-img"
+            src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000019_1549330510_mail-logo.png"
+            alt="mail"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
